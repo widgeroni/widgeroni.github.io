@@ -49,7 +49,7 @@ p.ridge {border-style: ridge;
         }
           }
           .blink-three {
-            animation: blinker-two 3s linear infinite;
+            animation: blinker-two 2s linear infinite;
           }
           @keyframes blinker-two {
             100% {

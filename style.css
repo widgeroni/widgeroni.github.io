@@ -1,4 +1,50 @@
-body {
+body {background-color: gray; color:black; font-family:Helvetica;
 }
-h1 {
+h1 {color:black;
+  font-family: Helvetica;
 }
+p {margin-left:0}
+#para10 {margin-left: 10;
+}
+#para20 {margin-left: 20; color:black
+}
+#para30 {margin-left: 30
+}
+#para40 {margin-left: 40
+}
+#para50 {margin-left: 50
+}
+p.outset {border-style: outset;}
+p.inset {border-style: inset;}
+p.ridge {border-style: ridge;
+}
+.blink {
+        animation: blinker 1s linear infinite;
+        color: red;
+        font-size: 20px;
+        font-weight: bold;
+        border-style: inset;
+        background-color: black;
+
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      .blink-one {
+        animation: blinker-one 1s linear infinite;
+      }
+      @keyframes blinker-one {
+        0% {
+          opacity: 0;
+        }
+      }
+      .blink-two {
+        animation: blinker-two 1.4s linear infinite;
+      }
+      @keyframes blinker-two {
+        100% {
+          opacity: 0;
+        }
+          }

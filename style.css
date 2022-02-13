@@ -48,3 +48,11 @@ p.ridge {border-style: ridge;
           opacity: 0;
         }
           }
+          .blink-three {
+            animation: blinker-two 3s linear infinite;
+          }
+          @keyframes blinker-two {
+            100% {
+              opacity: 0;
+            }
+              }
